@@ -1,0 +1,87 @@
+package edu.csula.datascience.acquisition;
+
+public class Constants {
+	
+	static String[] TWITTER_CONSUMER_KEY = {
+								"yfi90pP01SoOjDForVRT29R5m",
+								"Lwnao7hg7LndsCSYhFwKFYYYv",
+								"sG3Ed7FWUpRaCySfiDTjfbu4G",
+								"Tp3SqfAdkXoqCYIhKOrkGL7vs",
+								"4YdwqVxtjLjrfsW3dBHu92aWO",
+								"0PUy7fXBTgzHSuYRHNF9ePiK6"
+							};
+	static String [] TWITTER_CONSUMER_SECRET = {
+								"uCWJPO8NGCV3kYlzOxj6XurChPRhifVbkyPTvSujsMlS3mPz22",
+								"slIkBCGuy0BHmhQ2xZmJVye5KbY7Eo5S6mJt4ID6ufufFg9WjQ",
+								"Mi6J7K7Sj1CRY1BkM19l2rDcuvUJTrRP5VofZ0sl6YNj8N9HDE",
+								"P56hl6CTnaE4nqpX4QCz2uLNQd1MgYuo76HTYPaTKd1U1JFoXl",
+								"JW1dAZt6j2xvFJevvDP8KVszucWF93qYGNalwhaPOZg7FcmtbL",
+								"OWFegh0F3vlJrwvZ9f8l6yHCnCaLzpHV3vXrrdyQ05TnQzHTxE"
+					
+							};
+	static String [] TWITTER_ACCESS_TOKEN= {
+								"425903145-KKNTNVpuI8QvTpsysmtjCpFQLs2KxssLvHvaLHuG",
+								"723779887375351808-AxHxzvukifheusvYeRTBkqkwDGmWUxI",
+								"2256747913-sNAFcHWATPpaogeU7T3kCMq794DN2BWOGmcKBc0",
+								"254563800-xs8yqwQc6ZyurjhJJhYKF89kqdKAMUFBtkKv1lii",
+								"1105884504-lWSwBnIJFSBzE87PJt1QQRme4ZFRlJO2CnPrFsG",
+								"34596768-sYzUfWsuyWCiHc0jR8pwlX2xCbpyGSm4JzD52L6qr"
+								
+	};
+	static String [] TWITTER_ACCESS_SECRET ={
+								"AhV9sqkTB3tGLQwyedi84flQtioH0XIjB1vIhcEFQcwSt",
+								"JrMVnsWjm8QhTvZWBWmOAGihYquPC2jafnAkHbQN8Ojlv",
+								"5CHcoYf97xkBc8EpUA74Zi52FY8T0QAYrQagL4do3DCwI",
+								"SivoIr1xwTd4q3sr4oENiZJxCl0DM4iLVsyJBEsPjJEhe",
+								"QsEtKjLXlceWE89K7bvvZE698yeFf6WZq3pLGkz3biThr",
+								"wo3rmnnmTbh2ctlgHabjepdbnDPVHNaPdcCKLYCTgmpKV"
+	};
+	/*{
+	
+		//savin 1
+	TWITTER_CONSUMER_KEY[0]="yfi90pP01SoOjDForVRT29R5m";
+	TWITTER_CONSUMER_SECRET[0]="uCWJPO8NGCV3kYlzOxj6XurChPRhifVbkyPTvSujsMlS3mPz22";
+	TWITTER_ACCESS_TOKEN[0]="425903145-KKNTNVpuI8QvTpsysmtjCpFQLs2KxssLvHvaLHuG";
+	TWITTER_ACCESS_SECRET[0]="AhV9sqkTB3tGLQwyedi84flQtioH0XIjB1vIhcEFQcwSt";
+	
+	//this is key pair 2 savin 2
+	 TWITTER_CONSUMER_KEY[1]="Lwnao7hg7LndsCSYhFwKFYYYv";
+	 TWITTER_CONSUMER_SECRET[1]="slIkBCGuy0BHmhQ2xZmJVye5KbY7Eo5S6mJt4ID6ufufFg9WjQ";
+	 TWITTER_ACCESS_TOKEN[1]="723779887375351808-AxHxzvukifheusvYeRTBkqkwDGmWUxI";
+	TWITTER_ACCESS_SECRET[1]="JrMVnsWjm8QhTvZWBWmOAGihYquPC2jafnAkHbQN8Ojlv";
+	
+	// rupal
+	TWITTER_CONSUMER_KEY[2]="sG3Ed7FWUpRaCySfiDTjfbu4G";
+	TWITTER_CONSUMER_SECRET[2]="Mi6J7K7Sj1CRY1BkM19l2rDcuvUJTrRP5VofZ0sl6YNj8N9HDE";
+	TWITTER_ACCESS_TOKEN[2]="2256747913-sNAFcHWATPpaogeU7T3kCMq794DN2BWOGmcKBc0";
+	TWITTER_ACCESS_SECRET[2]="5CHcoYf97xkBc8EpUA74Zi52FY8T0QAYrQagL4do3DCwI";
+	
+	//bushan
+	TWITTER_CONSUMER_KEY[3]="Tp3SqfAdkXoqCYIhKOrkGL7vs";
+	TWITTER_CONSUMER_SECRET[3]="P56hl6CTnaE4nqpX4QCz2uLNQd1MgYuo76HTYPaTKd1U1JFoXl";
+	TWITTER_ACCESS_TOKEN[3]="254563800-xs8yqwQc6ZyurjhJJhYKF89kqdKAMUFBtkKv1lii";
+	TWITTER_ACCESS_SECRET[3]="SivoIr1xwTd4q3sr4oENiZJxCl0DM4iLVsyJBEsPjJEhe";
+	
+	//jay
+	TWITTER_CONSUMER_KEY[4]="4YdwqVxtjLjrfsW3dBHu92aWO";
+	TWITTER_CONSUMER_SECRET[4]="JW1dAZt6j2xvFJevvDP8KVszucWF93qYGNalwhaPOZg7FcmtbL";
+	TWITTER_ACCESS_TOKEN[4]="1105884504-lWSwBnIJFSBzE87PJt1QQRme4ZFRlJO2CnPrFsG";
+	TWITTER_ACCESS_SECRET[4]="QsEtKjLXlceWE89K7bvvZE698yeFf6WZq3pLGkz3biThr";
+	
+	//suren
+	TWITTER_CONSUMER_KEY[5]="0PUy7fXBTgzHSuYRHNF9ePiK6";
+	TWITTER_CONSUMER_SECRET[5]="OWFegh0F3vlJrwvZ9f8l6yHCnCaLzpHV3vXrrdyQ05TnQzHTxE";
+	TWITTER_ACCESS_TOKEN[5]="34596768-sYzUfWsuyWCiHc0jR8pwlX2xCbpyGSm4JzD52L6qr";
+	TWITTER_ACCESS_SECRET[5]="wo3rmnnmTbh2ctlgHabjepdbnDPVHNaPdcCKLYCTgmpKV";
+	
+	
+	
+	
+	}*/
+	
+	static String SPOTIFY_CLIENT_ID="b6e6a0a1fe5344b195c293ee006efa34";
+	static String SPOTIFY_CLIENT_SECRET="5ab2738f61ee40868c9aec68e8077a4c";
+	
+	
+			
+}
